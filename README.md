@@ -11,7 +11,7 @@ To setup:
 To use:
 1)Open the project you want to have CT XOR
 2)Place xor.h in your project
-3)Build
+3)Build Project
 
 Notes:
 -Can handle escaped quotes
