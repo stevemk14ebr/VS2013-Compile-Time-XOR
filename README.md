@@ -2,6 +2,7 @@
 Compile time string XOR for visual studio 2010-2013.
 
 To setup:
+
 1) Compile this project to .dll
 
 2) Rename the compiled dll to a.dll
@@ -12,7 +13,7 @@ To setup:
 
 5) Place a.dll in the VC -> bin directory next to c1xx.dll
 
-
+		
 
 To use:
 
