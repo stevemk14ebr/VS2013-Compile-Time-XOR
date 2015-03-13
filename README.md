@@ -2,38 +2,39 @@
 Compile time string XOR for visual studio 2010-2013.
 
 To setup:
-1)Compile this project to .dll
+1) Compile this project to .dll
 
-2)Rename the compiled dll to a.dll
+2) Rename the compiled dll to a.dll
 
-3)Navigate to Visual Studio Install Directory -> VC -> bin, locate c1xx.dll
+3) Navigate to Visual Studio Install Directory -> VC -> bin, locate c1xx.dll
 
-4)Patch c1xx.dll to load a.dll
+4) Patch c1xx.dll to load a.dll
 
-5)Place a.dll in the VC -> bin directory next to c1xx.dll
+5) Place a.dll in the VC -> bin directory next to c1xx.dll
 
 
 
 To use:
 
-  1)Open the project you want to have CT XOR
+  1) Open the project you want to have CT XOR
 
-  2)Place xor.h in your project
+  2) Place xor.h in your project
 
-  3)Build Project
+  3) Build Project
 
 Notes:
-  -Can handle escaped quotes
 
-  -Can handle multiple XOR statements per line
+  - Can handle escaped quotes
 
-  -Uses Unicode almost entirely
+  - Can handle multiple XOR statements per line
 
-  -This version XOR's in debug and in release mode
+  - Uses Unicode almost entirely
 
-  -Encrypted Files are stored in project directory /Temp
+  - This version XOR's in debug and in release mode
 
-  -Original Code and ideas 100% SEGnosis, i simply made a VS2013 compatible a.dll version with a few changes, c1xx.dll patch   created by SEGnosis as well
+  - Encrypted Files are stored in project directory /Temp
+
+  - Original Code and ideas 100% SEGnosis, i simply made a VS2013 compatible a.dll version with a few changes, c1xx.dll patch   created by SEGnosis as well
 
 Necessary directions to patch c1xx.dll and xor.h header can be found here:
 
