@@ -51,6 +51,7 @@ if(input==SuperSecretKey)
 ```
 This would turn into
 ```C++
+//The XOR macro is expanded at compile time by a.dll
 #define SuperSecretKey XOR("ImAKey")
 if(input==SuperSecretKey)
 	printf("You are a valid user!");
