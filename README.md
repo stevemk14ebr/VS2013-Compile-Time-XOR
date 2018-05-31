@@ -1,6 +1,9 @@
 # VS2013-Compile-Time-XOR
 Compile time string XOR for visual studio 2010-2013.
 
+# Out of date
+Use the replacement: https://github.com/stevemk14ebr/CompileTime-String-Encryption
+
 To setup:
 
 1) Compile this project to .dll
